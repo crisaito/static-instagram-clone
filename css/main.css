@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #fafafa;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+
+header{
+	background-color: #fff;
+	border-bottom: 1px solid #dadada;	
+}
+
+.container{
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+.toopbar{
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.toopbar__logo img{
+	height: 100%;
+}
+
+button{
+	background-color: transparent;
+	border: none;
+}
+
+.stories{
+	padding-top: 20px;
+	height: 150px;
+}
+
+.user__stories img{	
+	margin: 0 10px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.active img{
+  border: solid 5px transparent;
+	background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(180deg, #c13584, #fd1d1d,#f56040 );
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+
+.card{
+	background-color: #fff;
+	border-radius: 15px;
+	border: 1px solid #dadada;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+
+.card__header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+
+.card__user{
+	display: flex;
+	align-items: center;
+}
+
+.card__avatar img{
+	border-radius: 50%;
+	height: 45px;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	padding-right: 10px;
+}
+
+.card__figure{
+	margin: 0;
+	width: 100%;
+}
+
+.card__figure img{
+	width: 100%;
+}
+
+.card__controls{
+	position: relative;
+}
+
+.card__control{
+	font-size: 1.5em;
+	padding: 10px 15px;
+}
+
+.fa-bookmark{
+	position: absolute;
+	right: 15px;
+	top: 10px;
+}
+
+.card__status{
+	background-color: #f1f1f1;
+	padding-left: 10px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+}
+
+.card__liked img{
+	height: 30px;
+	border-radius: 50%;
+}
